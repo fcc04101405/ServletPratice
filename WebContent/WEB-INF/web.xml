@@ -11,7 +11,7 @@
   </welcome-file-list>
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>com.test.HelloServlet</servlet-class>
+    <servlet-class>com.test.section1And2.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
@@ -19,7 +19,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>FormServlet</servlet-name>
-    <servlet-class>com.test.FormServlet</servlet-class>
+    <servlet-class>com.test.section1And2.FormServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FormServlet</servlet-name>
@@ -27,26 +27,50 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>Top10Servlet</servlet-name>
-    <servlet-class>com.test.Top10Servlet</servlet-class>
+    <servlet-class>com.test.section1And2.Top10Servlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Top10Servlet</servlet-name>
     <url-pattern>/TomcatTest/Top10Servlet</url-pattern>
   </servlet-mapping>
-    <servlet>
+  <servlet>
     <servlet-name>CustomerServlet</servlet-name>
-    <servlet-class>com.test.CustomerServlet</servlet-class>
+    <servlet-class>com.test.section1And2.CustomerServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>CustomerServlet</servlet-name>
     <url-pattern>/customer</url-pattern>
   </servlet-mapping>
-    <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>CustomerServlet</servlet-name>
     <url-pattern>/editCustomer</url-pattern>
   </servlet-mapping>
-      <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>CustomerServlet</servlet-name>
     <url-pattern>/updateCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PreferenceServlet</servlet-name>
+    <servlet-class>com.test.section1And2.PreferenceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PreferenceServlet</servlet-name>
+    <url-pattern>/preference</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CookieClassServlet</servlet-name>
+    <servlet-class>com.test.section1And2.CookieClassServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieClassServlet</servlet-name>
+    <url-pattern>/cookieClass</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>CookieInfoServlet</servlet-name>
+    <servlet-class>com.test.section1And2.CookieInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieInfoServlet</servlet-name>
+    <url-pattern>/cookieInfo</url-pattern>
   </servlet-mapping>
 </web-app>
