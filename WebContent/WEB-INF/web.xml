@@ -92,8 +92,50 @@
 		<servlet-name>ShoppingCartServlet</servlet-name>
 		<url-pattern>/addToCart</url-pattern>
 	</servlet-mapping>
-		<servlet-mapping>
+	<servlet-mapping>
 		<servlet-name>ShoppingCartServlet</servlet-name>
 		<url-pattern>/viewCart</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>com.test.section4.EmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/employee</url-pattern>
+	</servlet-mapping>
+    <jsp-config>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/fmt</taglib-uri>
+    <taglib-location>/WEB-INF/fmt.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/fmt-rt</taglib-uri>
+    <taglib-location>/WEB-INF/fmt-rt.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/core</taglib-uri>
+    <taglib-location>/WEB-INF/c.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/core-rt</taglib-uri>
+    <taglib-location>/WEB-INF/c-rt.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/sql</taglib-uri>
+    <taglib-location>/WEB-INF/sql.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/sql-rt</taglib-uri>
+    <taglib-location>/WEB-INF/sql-rt.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/x</taglib-uri>
+    <taglib-location>/WEB-INF/x.tld</taglib-location>
+    </taglib>
+    <taglib>
+    <taglib-uri>http://java.sun.com/jstl/x-rt</taglib-uri>
+    <taglib-location>/WEB-INF/x-rt.tld</taglib-location>
+    </taglib>
+    </jsp-config>
 </web-app>
