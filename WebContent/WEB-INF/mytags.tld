@@ -12,4 +12,22 @@
 		<tag-class>com.test.section6.MyFirstTag</tag-class>
 		<body-content>empty</body-content>
 	</tag>
+	<tag>
+		<name>dataFormatter</name>
+		<tag-class>com.test.section6.DataFormatterTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>header</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>items</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	<tag>
+		<name>select</name>
+		<tag-class>com.test.section6.SelectElementTag</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
 </taglib>
