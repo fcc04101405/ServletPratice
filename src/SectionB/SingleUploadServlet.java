@@ -22,6 +22,7 @@ public class SingleUploadServlet extends HttpServlet {
 
 	private String getFilename(Part part) {
 		String contentDispositionHeader = part.getHeader("content-disposition");
+		System.out.println(contentDispositionHeader);
 		String[] elements = contentDispositionHeader.split(";");
 		for (String element : elements) {
 			if (element.trim().startsWith("filename")) {
