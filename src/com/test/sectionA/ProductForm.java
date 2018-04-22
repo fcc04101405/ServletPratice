@@ -1,4 +1,4 @@
-package SectionA;
+package com.test.sectionA;
 
 public class ProductForm {
 	private String name;

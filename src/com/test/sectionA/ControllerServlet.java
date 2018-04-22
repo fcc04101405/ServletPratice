@@ -1,4 +1,4 @@
-package SectionA;
+package com.test.sectionA;
 
 import java.io.IOException;
 

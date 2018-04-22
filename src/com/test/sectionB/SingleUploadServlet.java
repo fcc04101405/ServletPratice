@@ -1,4 +1,4 @@
-package SectionB;
+package com.test.sectionB;
 
 import java.io.IOException;
 import java.io.PrintWriter;
